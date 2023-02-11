@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator spalania</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+<div class="card">
+
+    <div class="title">
+        <h1>Kalkulator kosztów paliwa</h1>
+    </div>
+
+    <form>
+        <label for="avg-brn">Średnie spalanie</label><br>
+        <input type="number" id="avg-brn" value="0"><br>
+        <label for="fuel-cost">Koszt paliwa</label><br>
+        <input type="number" id="fuel-cost" value="0"><br>
+        <label for="distance">Długość trasy</label><br>
+        <input type="number" id="distance" value="0"><br>
+    </form>
+
+    <div>
+        <button class="btn" id="calculate">Oblicz</button>
+    </div>
+
+
+</div>
+
+<div class="wynik">
+    <p id="wynik">
+        
+    </p>
+</div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
